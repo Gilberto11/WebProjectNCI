@@ -1,0 +1,25 @@
+/* style of the headline */
+h1 { 
+color: red;
+text-align: center;
+ }
+
+ .container {
+  max-width: 840px;
+  margin: 100 auto;
+
+}
+/* Set font arial for everything */
+* {
+  font-family: Arial;
+}
+/* set the font size of a paragraph */
+p{
+	font-size: 20px;
+	color: black;
+}
+
+
+
+
+

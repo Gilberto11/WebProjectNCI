@@ -1,0 +1,73 @@
+
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+
+form{
+background-color: black;
+width: 700px;
+height: 600px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: italic;
+line-height:24px;
+font-weight:bold;
+color: white;
+text-decoration: none;
+padding: 10px;
+border: 1px solid #999;
+}
+
+input{
+width:700px;
+display: block;
+border:5px solid #999;
+height: 50px;
+}
+
+textarea#feedback{
+width:700px;
+height:150px;
+display: block;
+border:5px solid #999;
+}
+
+input.button{
+width: 100px;
+float: right;
+background: white;
+color: #fff;
+font-family: Tahoma, Genova, sans-serif;
+height: 30px;
+border: 10px solid #999;
+}
+
+input.button:hover{
+background: white;
+color:black;
+}
+
+body { text-align: center; }
+     /* center all items within body, this property is inherited */
+body > * { text-align: left; }
+     /* left-align the CONTENTS all items within body, additionally
+        you can add this text-align: left property to all elements
+        manually */
+form { display: inline-block; }
+     /* reduces the width of the form to only what is necessary */
